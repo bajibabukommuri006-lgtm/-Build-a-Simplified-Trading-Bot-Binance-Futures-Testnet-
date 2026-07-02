@@ -1,0 +1,16 @@
+2026-07-02 05:42:23 | INFO     | trading_bot | === CLI run: python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01 ===
+2026-07-02 05:42:23 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'type': 'MARKET'}
+2026-07-02 05:42:23 | INFO     | trading_bot | Order response: {'orderId': 5001234567, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'executedQty': '0.010', 'avgPrice': '61234.50'}
+2026-07-02 05:42:23 | INFO     | trading_bot | === CLI run: python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.01 --price 65000 ===
+2026-07-02 05:42:23 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'quantity': 0.01, 'type': 'LIMIT', 'price': 65000.0, 'timeInForce': 'GTC'}
+2026-07-02 05:42:23 | INFO     | trading_bot | Order response: {'orderId': 5001234999, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0.000', 'avgPrice': '0.00'}
+2026-07-02 12:00:16 | ERROR    | trading_bot | Startup failed: API key/secret not provided. Set BINANCE_API_KEY and BINANCE_API_SECRET (env vars or .env file).
+2026-07-02 12:03:55 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'type': 'MARKET'}
+2026-07-02 12:03:56 | ERROR    | trading_bot | Binance API error placing order {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'type': 'MARKET'}: APIError(code=-2014): API-key format invalid.
+2026-07-02 12:03:56 | ERROR    | trading_bot | Order placement failed: Binance API error: APIError(code=-2014): API-key format invalid.
+2026-07-02 12:06:11 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'type': 'MARKET'}
+2026-07-02 12:06:12 | ERROR    | trading_bot | Binance API error placing order {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'type': 'MARKET'}: APIError(code=-2014): API-key format invalid.
+2026-07-02 12:06:12 | ERROR    | trading_bot | Order placement failed: Binance API error: APIError(code=-2014): API-key format invalid.
+2026-07-02 12:10:11 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'type': 'MARKET'}
+2026-07-02 12:10:12 | ERROR    | trading_bot | Binance API error placing order {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'type': 'MARKET'}: APIError(code=-2014): API-key format invalid.
+2026-07-02 12:10:12 | ERROR    | trading_bot | Order placement failed: Binance API error: APIError(code=-2014): API-key format invalid.
